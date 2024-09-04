@@ -90,10 +90,7 @@ export default function Countdown() {
     const minutes = Math.floor(time / 60); // Calculate minutes
     const seconds = time % 60; // Calculate seconds
     // Return the formatted string
-    return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(
-      2,
-      "0"
-    )}`;
+    return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
   };
 
   // Function to handle changes in the duration input field
